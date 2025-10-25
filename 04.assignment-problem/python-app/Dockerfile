@@ -2,6 +2,6 @@ FROM python
 
 WORKDIR /app
 
-COPY bmy.py /app
+COPY bmi.py /app
 
-CMD ["python", "bmy.py"]
+CMD ["python", "bmi.py"]
